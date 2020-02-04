@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SnapDictionary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saved_words">saved words</string>
+    <string name="history">history</string>
+    <string name="clicked_image">Clicked image</string>
+</resources>
