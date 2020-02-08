@@ -23,7 +23,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.LifecycleOwner
 
 import com.vintile.snapdictionary.R
-import com.vintile.snapdictionary.utils.AppConstants;
+import com.vintile.snapdictionary.utils.AppConstants
 import java.io.File
 import java.nio.ByteBuffer
 import java.text.SimpleDateFormat

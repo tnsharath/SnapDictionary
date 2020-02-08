@@ -34,7 +34,6 @@
         app:layout_constraintDimensionRatio="1:1"/>
 
     <ImageButton
-        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorDark"
@@ -46,7 +45,6 @@
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <ImageButton
-        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorDark"

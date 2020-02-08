@@ -1,7 +1,6 @@
 package com.vintile.snapdictionary.view;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
@@ -20,8 +19,8 @@ public class CameraResultActivity extends AppCompatActivity {
     }
 
     private void startImageProcessFragment(String imagePath) {
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         ImageProcessFragment cameraFragment = new ImageProcessFragment();
         Bundle bundle = new Bundle();
         bundle.putString(AppConstants.IMAGE_PATH, imagePath);

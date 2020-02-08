@@ -30,6 +30,7 @@ public class PermissionFragment extends Fragment {
                 PERMISSION_REQUEST_CAMERA);
     }
 
+    @SuppressWarnings("UnusedReturnValue")
     public boolean checkCameraPermission() {
         return ContextCompat.checkSelfPermission(MyApplication.getContext(), Manifest.permission.CAMERA)
                 == PackageManager.PERMISSION_GRANTED;

@@ -10,14 +10,16 @@ import android.os.Bundle;
 import com.vintile.snapdictionary.R;
 
 import java.io.File;
+import java.util.Objects;
 
+@SuppressWarnings("UnusedReturnValue")
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
         startCameraFragment();
     }
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.frameLayout, cameraFragment).commit();
     }
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     public File getOutputDirectory(Context context) {
         File[] file = context.getExternalMediaDirs();
         File mediaDir = null;
