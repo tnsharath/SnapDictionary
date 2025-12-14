@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.camera.camera2.Camera2Config;
 import androidx.camera.core.CameraXConfig;
 
+//comment
 public class MyApplication extends Application implements CameraXConfig.Provider {
     private static MyApplication mContext;
 
